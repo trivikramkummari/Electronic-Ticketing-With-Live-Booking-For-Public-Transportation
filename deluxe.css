@@ -1,0 +1,293 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+.header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    animation: fadeInDown 1s ease;
+}
+
+.logo img {
+    width: 150px;
+    height: 90px;
+    border-radius: 50%;
+    animation: pulse 1s infinite alternate;
+}
+
+.location {
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.list-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slideInLeft 1s ease;
+}
+
+.list-items li {
+    margin: 0 5px;
+    margin-right: 10px;
+    animation: fadeInLeft 1s ease;
+}
+
+.list-items a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.list-items a:hover {
+    color: #ffeb3b;
+    cursor: pointer;
+}
+
+.deluxe-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: zoomIn 1s ease;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container form {
+    text-align: center;
+}
+
+.container legend {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.container img {
+    width: 180px;
+    height: 150px;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group select, .form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-group select:focus,
+.form-group input[type="submit"]:hover {
+    cursor: pointer;
+    border-color: #66afe9;
+}
+
+.form-group label{
+    float: left;
+}
+
+.form-group input{
+    text-align: center;
+    width: 120px;
+    height: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.form-group button {
+    background-color: #2196F3;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.form-group button:hover {
+    background-color: #5aa6f2;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    animation: fadeInUp 1s ease;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    animation: slideInRight 1s ease;
+}
+
+.social-icons a:hover {
+    color: #e0d88b;
+}
+
+.copy {
+    margin-bottom: 10px;
+}
+
+.address {
+    margin-top: 10px;
+    font-style: normal;
+}
+
+footer p a {
+    color: #fff;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+/* Fade In Down Animation */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Fade In Right Animation */
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Slide In Left Animation */
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Fade In Left Animation */
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Zoom In Animation */
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Fade In Up Animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Bounce In Animation */
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
