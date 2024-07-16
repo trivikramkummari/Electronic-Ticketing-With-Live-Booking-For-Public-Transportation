@@ -2,7 +2,7 @@
 Electronic Ticketing with Live Booking for Public Transportation
 
 # Overview:
-This project presents a static web-based electronic ticketing system for public transportation. Passengers can easily book tickets and view journey details through a straightforward, browser-based interface.
+This project presents a web-based electronic ticketing system for public transportation. Passengers can easily book tickets and view journey details through a straightforward, browser-based interface.
 
 # Functionality:
 1. Web Application: The web application allows users to select their preferred bus type (ordinary, metro, metro deluxe), choose their source and destination, view journey details, submit their information, and receive a popup displaying ticket details including the source, destination, date of journey, validated time, and a "Happy Journey" greetings.
